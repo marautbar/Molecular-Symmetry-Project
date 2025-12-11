@@ -10,8 +10,8 @@
 \onehalfspacing
 
 \title{MAT 541 001 Modern Algebra\\Molecular Symmetry and Group Theory}
-\author{Maggie Barker}
-\date{December 1, 2025 (second draft)}
+\author{Margaret A. Barker}
+\date{December 8, 2025}
 
 \begin{document}
     \maketitle
@@ -35,7 +35,7 @@
     
     \begin{figure}[htbp]
         \centering
-        \includegraphics[width=5in]{vsepr.jpg}
+        \includegraphics[width=5in]{figures/vsepr.jpg}
         \caption{The most common molecular geometries based on VSEPR theory. \cite{chemlearner}}
         \label{fig:vsepr}
     \end{figure}
@@ -48,17 +48,17 @@
 
     For the sake of representing three dimensional molecules on two dimensional paper, some bonds will be drawn as wedges and dashes. For example, consider the following molecule:
     
-    \begin{center}\includegraphics[width=1in]{c1example.jpg}\end{center}
+    \begin{center}\includegraphics[width=1in]{molecules/c1example.jpg}\end{center}
 
     Here, the wedge bond implies that the chlorine (Cl) atom is facing towards the reader, while the dashed bond implies that the bromine (Br) atom is facing away from the reader. The normal (skinny) bonds should be interpreted as being in the plane of the paper.
 
     One other convention that needs to be noted is the way benzene rings will be shown. Benzene is a ring of six carbons with alternating (conjugated) double and single bonds, with each carbon bound to a hydrogen, as follows:
 
-    \begin{center}\includegraphics[width=1in]{benzene.jpg}\end{center}
+    \begin{center}\includegraphics[width=1in]{molecules/benzene.jpg}\end{center}
 
     Due to the tedious nature of drawing this molecule and its frequency of occurrence, it will be shown in the following standard shorthand way:
     
-    \begin{center}\includegraphics[width=0.5in]{d6hexample.jpg}\end{center}
+    \begin{center}\includegraphics[width=0.5in]{molecules/d6hexample.jpg}\end{center}
 
     \section{Symmetry elements and operations}
 
@@ -76,45 +76,45 @@
 
     \section{Point groups}
 
-    The collection of symmetry operations that a molecule possesses determines its \emph{point group}. It is named such since every symmetry element shares a single point. \cite{johnston2014} Determining the point group of a molecule can be rather complicated, but there is a sequence of steps that can be followed to determine a point group without much trouble. To get started, we can classify molecules as being of \emph{low symmetry}, \emph{high symmetry}, or neither. We will list the point groups of the three categories and show example molecules that exhibit each group. To assist in determining the point groups for molecules of neither low nor high symmetry, we will use a flowchart.
+    The collection of symmetry operations that a molecule possesses determines its \emph{point group}. It is named such since every symmetry element shares a single point, and the symmetry elements and operations have an algebraic group structure. \cite{johnston2014} Determining the point group of a molecule can be rather complicated, but there is a sequence of steps that can be followed to determine a point group without much trouble. To get started, we can classify molecules as being of \emph{low symmetry}, \emph{high symmetry}, or neither. We will list the point groups of the three categories and show example molecules that exhibit each group. To assist in determining the point groups for molecules of neither low nor high symmetry, we will use a flowchart.
 
     \subsection{Point groups of low symmetry}
 
     Molecules in the $C_1$ group have no symmetry besides the identity operation $E$. (Indeed, every point group contains $E$, but it will not be mentioned in the following groups.)
 
-    \begin{center}\includegraphics[width=1in]{c1example.jpg}\end{center}
+    \begin{center}\includegraphics[width=1in]{molecules/c1example.jpg}\end{center}
     \pagebreak
 
     Molecules in the $C_s$ group have only one mirror plane (in the following example, the mirror plane is the plane of the molecule).
 
-    \begin{center}\includegraphics[width=1in]{csexample.jpg}\end{center}
+    \begin{center}\includegraphics[width=1in]{molecules/csexample.jpg}\end{center}
 
     Molecules in the $C_i$ group have only an inversion center.
 
-    \begin{center}\includegraphics[width=1in]{ciexample.jpg}\end{center}
+    \begin{center}\includegraphics[width=1in]{molecules/ciexample.jpg}\end{center}
 
     \subsection{Point groups of high symmetry}
 
     Molecules in the $C_{\infty v}$ group are linear, with infinite rotation order and an infinite number of reflection planes containing the rotation axis. They contain no inversion center. An example is hydrogen chloride.
 
-    \begin{center}\includegraphics[width=1in]{cinfvexample.jpg}\end{center}
+    \begin{center}\includegraphics[width=1in]{molecules/cinfvexample.jpg}\end{center}
 
     Molecules in the $D_{\infty h}$ group are like $C_{\infty v}$, but with perpendicular $C_2$ axes, a perpendicular mirror plane, and an inversion center. An example is carbon dioxide.
 
-    \begin{center}\includegraphics[width=1in]{dinfhexample.jpg}\end{center}
+    \begin{center}\includegraphics[width=1in]{molecules/dinfhexample.jpg}\end{center}
 
     Molecules in the $T_d$ group are tetrahedral, with four $C_3$ axes, three $C_2$ axes, three $S_4$ axes, and six $\sigma_d$ mirror planes. An example is methane.
 
-    \begin{center}\includegraphics[width=1in]{tdexample.jpg}\end{center}
+    \begin{center}\includegraphics[width=1in]{molecules/tdexample.jpg}\end{center}
 
     Molecules in the $O_h$ group are octahedral, with 48 symmetry operations in all. An example is sulfur hexafluoride.
 
-    \begin{center}\includegraphics[width=1in]{ohexample.jpg}\end{center}
+    \begin{center}\includegraphics[width=1in]{molecules/ohexample.jpg}\end{center}
     \pagebreak
 
     Molecules in the $I_h$ group are icosahedral, with 120 symmetry operations in all. A fascinating example is buckminsterfullerene, a molecule with sixty carbon atoms in a soccer ball shape.
     
-    \begin{center}\includegraphics[width=1in]{bucky.png}\end{center}
+    \begin{center}\includegraphics[width=1in]{molecules/bucky.png}\end{center}
 
     \subsection{Other point groups}
 
@@ -122,7 +122,7 @@
 
     \begin{figure}[htb]
         \centering
-        \includegraphics[width=6.5in]{flowchart.png}
+        \includegraphics[width=6.5in]{figures/flowchart.png}
         \caption{Flowchart to help determine point groups of molecules.}
         \label{fig:flowchart}
     \end{figure}
@@ -130,36 +130,36 @@
 
     Molecules in the $C_{nh}$ group contain a $C_n$ rotation axis, a horizontal mirror plane $\sigma_h$, and an inversion center. The following examples are $C_{2h}$, $C_{2h}$, and $C_{3h}$, respectively:
 
-    \begin{center}\includegraphics[width=1in]{c2hexample1.jpg}\includegraphics[width=1in]{c2hexample2.jpg}\includegraphics[width=1in]{c3hexample.jpg}\end{center}
+    \begin{center}\includegraphics[width=1in]{molecules/c2hexample1.jpg}\includegraphics[width=1in]{molecules/c2hexample2.jpg}\includegraphics[width=1in]{molecules/c3hexample.jpg}\end{center}
 
     Molecules in the $C_{nv}$ group contain a $C_n$ rotation axis and $n$ vertical mirror planes $\sigma_v$. The following examples are $C_{2v}$, $C_{3v}$, and $C_{4v}$, respectively:
 
-    \begin{center}\includegraphics[width=1in]{c2vexample.jpg}\includegraphics[width=1in]{c3vexample.jpg}\includegraphics[width=1in]{c4vexample.jpg}\end{center}
+    \begin{center}\includegraphics[width=1in]{molecules/c2vexample.jpg}\includegraphics[width=1in]{molecules/c3vexample.jpg}\includegraphics[width=1in]{molecules/c4vexample.jpg}\end{center}
 
     Due to the importance of water and ammonia, we will devote much of our mathematical study to the $C_{2v}$ and $C_{3v}$ point groups in the following sections.
 
     Molecules in the $C_{n}$ group contain a $C_n$ rotation axis but no mirror planes. An example is hydrogen peroxide, which is in the $C_2$ point group.
 
-    \begin{center}\includegraphics[width=1in]{c2example.jpg}\end{center}
+    \begin{center}\includegraphics[width=1in]{molecules/c2example.jpg}\end{center}
 
     Molecules in the $D_{nh}$ group contain a $C_n$ rotation axis and $n$ perpendicular $C_2$ rotation axes. They also have a horizontal mirror plane $\sigma_h$. The following examples are $D_{3h}$, $D_{3h}$, and $D_{4h}$, and $D_{6h}$, respectively:
 
-    \begin{center}\includegraphics[width=1in]{d3hexample1.jpg}\includegraphics[width=1in]{d3hexample2.jpg}\includegraphics[width=1in]{d4hexample.jpg}\includegraphics[width=1in]{d6hexample.jpg}\end{center}
+    \begin{center}\includegraphics[width=1in]{molecules/d3hexample1.jpg}\includegraphics[width=1in]{molecules/d3hexample2.jpg}\includegraphics[width=1in]{molecules/d4hexample.jpg}\includegraphics[width=1in]{molecules/d6hexample.jpg}\end{center}
 
     Molecules in the $D_{nd}$ group contain a $C_n$ rotation axis and $n$ perpendicular $C_2$ rotation axes. They also have $n$ dihedral mirror planes $\sigma_d$. An example is ethane, which is in the $D_{3d}$ point group.
-    \begin{center}\includegraphics[width=1in]{d3dexample.jpg}\end{center}
+    \begin{center}\includegraphics[width=1in]{molecules/d3dexample.jpg}\end{center}
     \pagebreak
 
     Molecules in the $D_{n}$ group contain a $C_n$ rotation axis and $n$ perpendicular $C_2$ rotation axes, but no mirror planes. Only the skeletal structure is shown in the following example of a $D_3$ molecule in order to emphasize the shape.
-    \begin{center}\includegraphics[width=1in]{d3example.jpg}\end{center}
+    \begin{center}\includegraphics[width=1in]{molecules/d3example.jpg}\end{center}
 
     Molecules are in the $S_{2n}$ group if they contain an $S_{2n}$ rotation-reflection axis, one $C_n$ rotation axis, and if they do not qualify to be in any of the $C$ or $D$ point groups. The following molecule is in the $S_4$ point group.
 
-    \begin{center}\includegraphics[width=1in]{s4example.jpg}\end{center}
+    \begin{center}\includegraphics[width=1in]{molecules/s4example.jpg}\end{center}
 
     \section{Algebraic group structure of point groups}
 
-    To illustrate the group structure of the point groups, we will use the point groups of ammonia (\ch{NH3}), $C_{3v}$, and water (\ch{H2O}), $C_{2v}$, as examples. We will verify that $C_{3v}$ satisfies the definition of a group by showing that it has an identity, inverses, closure, and associativity. Every point group, including $C_{3v}$, has a symmetry operation $E$ which serves the role as the identity element of the group. The $C_3$ rotation has the inverse $C_3^2$, as $C_3C_3^2=C_3^3=E$ and $C_3^2C_3=C_3^3=E$. Likewise, $C_3^2$ has the inverse $C_3$. Each reflection $\sigma_{v}$ is its own inverse. Note that $C_{3v}$ does not have a perpendicular $C_2$ axis or a $\sigma_h$ horizontal mirror plane (\ch{NH3} is trigonal pyramidal, not trigonal planar). We have that the $C_{3v}$ group is isomorphic to the $S_3$ permutation group, since the symmetries of \ch{NH3} correspond to the permutations of the triangle of three hydrogen atoms. Thus there are $3!=6$ symmetry operations in $C_{3v}$: $\{E, C_3, C_3^2, \sigma_{v1}, \sigma_{v2}, \sigma_{v3}\}$. Note that $C_{3v}$ is not abelian. The Cayley table for the $C_{3v}$ group is shown in Table \ref{tab:c3vcayley}. Closure can be verified from the Cayley table, and associativity follows from the associativity of function composition.
+    To gain a deeper understanding of point groups, we need to look at them through an algebraic lens. The first thing that we need to do is to verify that point groups truly fit the algebraic definition of a group. To illustrate the group structure of the point groups, we will use the point groups of ammonia (\ch{NH3}), $C_{3v}$, and water (\ch{H2O}), $C_{2v}$, as examples. We will verify that $C_{3v}$ satisfies the definition of a group by showing that it has an identity, inverses, closure, and associativity. Every point group, including $C_{3v}$, has a symmetry operation $E$ which serves the role as the identity element of the group. The $C_3$ rotation has the inverse $C_3^2$, as $C_3C_3^2=C_3^3=E$ and $C_3^2C_3=C_3^3=E$. Likewise, $C_3^2$ has the inverse $C_3$. Each reflection $\sigma_{v}$ is its own inverse. Note that $C_{3v}$ does not have a perpendicular $C_2$ axis or a $\sigma_h$ horizontal mirror plane (\ch{NH3} is trigonal pyramidal, not trigonal planar). We have that the $C_{3v}$ group is isomorphic to the $S_3$ permutation group, since the symmetries of \ch{NH3} correspond to the permutations of the triangle of three hydrogen atoms. Thus there are $3!=6$ symmetry operations in $C_{3v}$: $\{E, C_3, C_3^2, \sigma_{v1}, \sigma_{v2}, \sigma_{v3}\}$. Note that $C_{3v}$ is not abelian. The Cayley table for the $C_{3v}$ group is shown in Table \ref{tab:c3vcayley}. Closure can be verified from the Cayley table, and associativity follows from the associativity of function composition.
 
     \begin{table}[htbp]
         \centering
@@ -257,21 +257,22 @@
         \caption{The Cayley table for the $C_{2v}$ point group, using water (\ch{H2O}) as an example.}
         \label{tab:c2vcayley}
     \end{table}
-    \pagebreak
+
+    Now that we know molecular symmetry can be expressed in terms of algebraic groups, it is natural to consider how group theory can help us to understand observable chemical processes. To gain understanding of the underlying mathematical structure, we will use representation theory to express the symmetry operations in terms of matrices. Then we will use the principles of character theory to construct character tables, which are used by chemists to visualize the algebraic structure of various point groups in a concise and systematic way. We will use a standard system of notation to label the character tables, called \emph{Mulliken symbols}. \cite{mulliken1955}
 
     \section{Representation of symmetry operations as matrices}
 
     Our next step in the mathematical analysis is to find matrix representations of the symmetry operations $E$, $C_n$, $\sigma$, $i$, and $S_n$. We will define these operations as transformations of the coordinate vector $(x,y,z)^T$. The identity operation $E$ is represented by the identity matrix \[M_E=\begin{pmatrix}1&0&0\\0&1&0\\0&0&1\end{pmatrix}.\] The rotation operation $C_n$, where the rotation is about the $z$ axis, is represented by the matrix \[M_{C_n}=\begin{pmatrix}\cos\theta&-\sin\theta&0\\\sin\theta&\cos\theta&0\\0&0&1\end{pmatrix},\] where $\theta=\dfrac{360^\circ}{n}$ (bond angles in chemistry are typically expressed in degrees). Matrices for other rotational axes can be constructed similarly. The reflection operations $\sigma$ over the $xy$, $yz$, and $xz$ planes are represented by the respective matrices \[M_{\sigma_{xy}}=\begin{pmatrix}1&0&0\\0&1&0\\0&0&-1\end{pmatrix}, M_{\sigma_{yz}}=\begin{pmatrix}-1&0&0\\0&1&0\\0&0&1\end{pmatrix}, \text{ and }M_{\sigma_{xz}}=\begin{pmatrix}1&0&0\\0&-1&0\\0&0&1\end{pmatrix}.\] The inversion operation $i$ is represented by the matrix \[M_i=\begin{pmatrix}-1&0&0\\0&-1&0\\0&0&-1\end{pmatrix}.\] Finally, the rotation-reflection operation $S_n$, where the rotation is about the $z$ axis and the reflection is over the $xy$ plane, is represented by the matrix \[M_{S_n}=\begin{pmatrix}\cos\theta&-\sin\theta&0\\\sin\theta&\cos\theta&0\\0&0&-1\end{pmatrix},\] where $\theta=\dfrac{360^\circ}{n}$. Matrices for other rotational axes and reflection planes can be constructed similarly.
     
-    Now that we have a set of matrices for the symmetry operations, we can express the matrix representation of each of the point groups. To simplify the discussion, we will limit ourselves to the $C_{2v}$ and $C_{3v}$ point groups. We will look at the matrix representation for $C_{2v}$ (\ch{H2O}) first. We use the notation established in Table \ref{tab:c2vcayley}. By convention, we define the $z$ axis as the principal axis and the $xz$ plane as the plane of the molecule, with the oxygen atom at the origin, as shown:
+    Now that we have a set of matrices for the symmetry operations, we can express the matrix representation of each of the point groups. To simplify the discussion, we will limit ourselves to the $C_{2v}$ and $C_{3v}$ point groups. We will look at the matrix representation for $C_{2v}$ (\ch{H2O}) first. We use the notation established in Table \ref{tab:c2vcayley}. By convention, we define the $z$ axis as the principal axis and the $xz$ plane as the plane of the molecule, with the oxygen atom at the origin, as shown\footnote{The choice of axes is arbitrary. Mulliken \cite{mulliken1955} recommended using $yz$ as the molecular plane for $C_{2v}$. However, in this paper, we are using the convention used in Miessler, Fischer, and Tarr \cite{miessler2014}.}:
 
-    \begin{center}\includegraphics[width=1.5in]{waterxyz.png}\end{center}
+    \begin{center}\includegraphics[width=1.25in]{axes/waterxyz.png}\end{center}
     
     Then the matrices for the symmetry operations of $C_{2v}$ are \[M_E=\begin{pmatrix}1&0&0\\0&1&0\\0&0&1\end{pmatrix}, M_{C_2}=\begin{pmatrix}-1&0&0\\0&-1&0\\0&0&1\end{pmatrix}, M_{\sigma_{v1}}=\begin{pmatrix}1&0&0\\0&-1&0\\0&0&1\end{pmatrix}, \text{ and } M_{\sigma_{v2}}=\begin{pmatrix}-1&0&0\\0&1&0\\0&0&1\end{pmatrix}.\] Multiplying these matrices reveals the same group structure as shown in Table \ref{tab:c2vcayley}.
     
     Now we will look at the matrix representation for $C_{3v}$ (\ch{NH3}). We use the notation established in Table \ref{tab:c3vcayley}. By convention, we define the $z$ axis as the principal axis, the $xy$ plane as parallel to the hydrogen triangle, and the $xz$ plane coinciding with one of the three $\sigma_v$ mirror planes, with the nitrogen atom at the origin, as shown:
     
-    \begin{center}\includegraphics[width=1.5in]{ammoniaxyz.png}\end{center}
+    \begin{center}\includegraphics[width=1.5in]{axes/ammoniaxyz.png}\end{center}
     
     Then the matrices for the symmetry operations of $C_{3v}$ are \[M_E=\begin{pmatrix}1&0&0\\0&1&0\\0&0&1\end{pmatrix}, M_{C_3}=\begin{pmatrix}-\frac12&-\frac{\sqrt{3}}2&0\\\frac{\sqrt{3}}2&-\frac12&0\\0&0&1\end{pmatrix}, M_{C_3^2}=\begin{pmatrix}-\frac12&\frac{\sqrt{3}}2&0\\-\frac{\sqrt{3}}2&-\frac12&0\\0&0&1\end{pmatrix},\]
     \[M_{\sigma_{v1}}=\begin{pmatrix}1&0&0\\0&-1&0\\0&0&1\end{pmatrix}, M_{\sigma_{v2}}=\begin{pmatrix}-\frac12&-\frac{\sqrt{3}}2&0\\-\frac{\sqrt3}2&\frac12&0\\0&0&1\end{pmatrix}, \text{ and } M_{\sigma_{v3}}=\begin{pmatrix}-\frac12&\frac{\sqrt{3}}2&0\\\frac{\sqrt3}2&\frac12&0\\0&0&1\end{pmatrix}.\] Multiplying these matrices reveals the same group structure as shown in Table \ref{tab:c3vcayley}.
@@ -284,17 +285,18 @@
 
     The conjugacy classes in $C_{2v}$ are the singleton sets $\{E\}, \{C_2\}, \{\sigma_{v1}\}, \{\sigma_{v2}\}$, which follows since $C_{2v}\cong V_4$ is an abelian group. The conjugacy classes in $C_{3v}$ are the sets $\{E\}, \{C_3,C_3^2\},$ and $\{\sigma_{v1},\sigma_{v2},\sigma_{v3}\}$. Every symmetry operation in the same conjugacy class has the same character, and the operations in the same class will be grouped together when we create character tables.
 
-    The characters listed above for $C_{2v}$ and $C_{3v}$ are reducible representations. We will denote reducible representations by $\Gamma$. Our goal is to decompose these reducible representations into irreducible representations (irreps). The irreps will be denoted using a standard notation system.
+    The characters listed above for $C_{2v}$ and $C_{3v}$ are reducible representations. We will denote reducible representations by $\Gamma$. Our goal is to decompose these reducible representations into irreducible representations (irreps). The irreps will be denoted using a standard notation system, called Mulliken symbols. \cite{mulliken1955}
 
     One dimensional irreps are denoted $A$ if the representation is symmetric to the principal rotation (that is, $\chi_{C_n}=1$) and $B$ if the representation is antisymmetric to the principal rotation ($\chi_{C_n}=-1$). Two dimensional irreps are denoted $E$, and three dimensional irreps are denoted $T$. Furthermore, subscripts are used to distinguish irreps with the same letter label, and these subscripts are not arbitrary. Subscript 1 is used for an irrep that is symmetric to a perpendicular $C_2$ axis, and subscript 2 is used for an irrep that is antisymmetric to a perpendicular $C_2$. If there is no perpendicular $C_2$ axis, the subscript is determined based on the symmetry (1) or antisymmetry (2) with respect to the vertical mirror plane $xz$. Subscript $g$ (\emph{gerade}) is used for an irrep symmetric to inversion, and $u$ (\emph{ungerade}) is used in the antisymmetric case. For further distinction, $'$ is used for symmetry with respect to $\sigma_h$ and $''$ is used for antisymmetry with respect to $\sigma_h$.
     
     \section{Character tables}
 
-    Character tables are important in chemistry because they provide all of the symmetry information in a given point group in a succinct way. By reading a character table, a chemist can quickly determine which vibrational modes are IR- or Raman- active, the chirality of a molecule, or the way molecular orbitals can form, without needing to perform calculations. In a sense, they ``prepackage'' the underlying group theory into an easily read table that is shared by every molecule in a given point group. We will look at the construction of some simple character tables, and then we will explore some of their applications.
+    Character tables are important in chemistry because they provide all of the symmetry information in a given point group in a succinct way. Group theory helps predict observable chemical behavior. In a sense, character tables package the underlying group theory into an easily read table that is shared by every molecule in a given point group. By reading a character table, a chemist can quickly determine which vibrational modes are IR- or Raman- active, the chirality of a molecule, or the way molecular orbitals can form, without needing to perform calculations. We will look at the construction of some simple character tables, and then we will explore some of their applications.
 
     Now that we have found the matrices for the point groups $C_{2v}$ and $C_{3v}$, we are ready to begin constructing the character table for those point groups, starting with $C_{2v}$. We now revisit the matrices for the $C_{2v}$ symmetry operations, this time block diagonalized: \[M_E=\begin{pmatrix}\boxed1&0&0\\0&\boxed1&0\\0&0&\boxed1\end{pmatrix}, M_{C_2}=\begin{pmatrix}\boxed{-1}&0&0\\0&\boxed{-1}&0\\0&0&\boxed1\end{pmatrix}, M_{\sigma_{v1}}=\begin{pmatrix}\boxed1&0&0\\0&\boxed{-1}&0\\0&0&\boxed1\end{pmatrix}, \text{ and } M_{\sigma_{v2}}=\begin{pmatrix}\boxed{-1}&0&0\\0&\boxed1&0\\0&0&\boxed1\end{pmatrix}.\]
 
-    We start building a character table by placing the elements from the first block in the first row ($x$), the elements from the second block in the second row ($y$), and the elements from the third block in the third row ($z$), and labeling the rows by the aforementioned rules. (Note that the $xz$ plane of the water molecule drawn above corresponds to $\sigma_{v1}$ in Table \ref{tab:c2vcayley}, which distinguishes $B_1$ and $B_2$.) The last two columns will be expanded upon later and their importance will become apparent. Also, there is an empty row which will be filled in soon.
+    We start building a character table by placing the elements from the first block in the first row ($x$), the elements from the second block in the second row ($y$), and the elements from the third block in the third row ($z$), and labeling the rows with Mulliken symbols. (Note that the $xz$ plane of the water molecule drawn above corresponds to $\sigma_{v1}$ in Table \ref{tab:c2vcayley}, which distinguishes $B_1$ and $B_2$.) The last two columns will be expanded upon later and their importance will become apparent. We will also fill in the empty row at the bottom.
+    \pagebreak
 
     \begin{table}[htbp]
         \centering
@@ -311,7 +313,8 @@
         \end{tabular}
     \end{table}
 
-    Character tables have several important properties. Let $\chi_i(C)$ represent the character of class $C$ in the $i$th irrep.
+    Character tables have several key properties. Let $\chi_i(C)$ represent the character of class $C$ in the $i$th irrep.
+    \enlargethispage{\baselineskip}
     
     \begin{itemize}
         \item The number of symmetry operations is the order of the group, $h$.
@@ -340,7 +343,9 @@
         \end{tabular}
     \end{table}
 
-    We now have a complete character table for $C_{2v}$. Notice that additional information has been added to the last two columns. The symbols $R_x$, $R_y$, and $R_z$ indicate the irreps that match the symmetry or antisymmetry of rotations about the $x$, $y$, and $z$ axes, respectively. For example, the $C_2$ operation corresponds to the $R_z$ rotation, and the $A_2$ irrep is symmetric with respect to $C_2$. Thus, the $A_2$ row gets $R_z$. The $\sigma_{v1}$ operation corresponds to a reflection over the $xz$ plane, which is perpendicular to the $y$ axis, and the $B_1$ irrep is symmetric with respect to $\sigma_{v1}$. Thus, the $B_1$ row gets $R_y$. The $B_2$ row gets $R_x$ similarly. The symbols $x^2$, $y^2$, $xy$, etc. represent mathematical functions that are symmetric with respect to the irreps. For instance, we know that the product function $xy$ is positive in the first and third quadrants and negative in the second and fourth quadrants, and a $180^\circ$ rotation about the $z$ axis maintains these signs. However, a $180^\circ$ rotation about the $x$ or $y$ axes reverses these signs. Hence, $xy$ appears in the same row as $R_z$. Note that $xy$ and $R_z$ remain unchanged under $C_2$ and change sign with reflection over either mirror plane. The functions $x^2$, $y^2$, and $z^2$ are always positive, so they are symmetric with respect to the $A_1$ irrep.
+    We now have a complete character table for $C_{2v}$. Notice that additional information has been added to the last two columns. The symbols $R_x$, $R_y$, and $R_z$ indicate the rotational axes that are symmetric with respect to the irreps. For example, the $C_2$ operation corresponds to the $R_z$ rotation. We have that $C_2$ is symmetric with respect to the $A_2$ irrep, so $R_z$ is symmetric with respect to $A_2$. The $\sigma_{v1}$ operation corresponds to a reflection over the $xz$ plane, which is normal to the $y$ axis. We have that $\sigma_{v1}$ is symmetric with respect to the $B_1$ irrep, so $R_y$ is symmetric with respect to $B_1$. Similarly, $R_x$ is symmetric with respect to $B_2$.
+    
+    The symbols $x^2$, $y^2$, $xy$, etc. represent mathematical functions that are symmetric with respect to the irreps. For instance, we know that the product function $xy$ is positive in the first and third quadrants and negative in the second and fourth quadrants, and a $180^\circ$ rotation about the $z$ axis maintains these signs. However, a $180^\circ$ rotation about the $x$ or $y$ axes reverses these signs. Hence, $xy$ appears in the same row as $R_z$ and is symmetric with respect to the $A_2$ irrep. The functions $x^2$, $y^2$, and $z^2$ are always positive, so they are symmetric with respect to the $A_1$ irrep.
 
     At first, it may seem like these last two columns are only for curiosity's sake. However, as we will see, they have important applications in chemistry.
 
@@ -350,6 +355,7 @@
     The $C_3$ and $C_3^2$ operations are in the same class, and likewise the three $\sigma_v$ operations are in the same class, so they will be grouped together in the character table.
 
     Following the procedure established above, we will go ahead and create the full character table for $C_{3v}$.
+    \enlargethispage{\baselineskip}
     
     \begin{table}[htbp]
         \centering
@@ -375,7 +381,7 @@
 
     \begin{proof}
         From the Orthogonality Theorem, we have, for the $i$th and $j$th irreps, \[\sum_C n_C \chi_i(C)\chi_j(C)=h\delta_{ij}.\]
-        Taking the sum over all $j$ irreps, and multiplying both sides by $n_j$, we have \begin{equation}\sum_C n_C\sum_jn_j \chi_i(C)\chi_j(C)=h\sum_jn_j\delta_{ij}=hn_i.\label{lemmastep2}\end{equation}
+        Multiplying both sides by $n_j$, and taking the sum over all $j$ irreps, we have \begin{equation}\sum_C n_C\sum_jn_j \chi_i(C)\chi_j(C)=h\sum_jn_j\delta_{ij}=hn_i.\label{lemmastep2}\end{equation}
         We have by \eqref{lincomb} that $\sum_jn_j\chi_j(C)=\chi(C)$. Substituting into \eqref{lemmastep2}, we get \[\sum_C n_C\chi(C)\chi_i(C)=hn_i.\] Divide both sides by $h$ to complete the proof.
     \end{proof}
     
@@ -386,7 +392,7 @@
 
     Not only do molecules as a whole move around, but also the individual atoms can move around slightly within the molecule, producing molecular vibrations. To mathematically study these vibrations, we need to first assign a separate 3D coordinate axis to each atom. For a molecule with $N$ atoms, each atom can move independently in three dimensions, so there are $3N$ possible motions, called \emph{degrees of freedom}.
 
-    In a nonlinear molecule, there are three translational \emph{modes}, three rotational modes, and the remaining $3N-6$ modes are vibrational. In a linear molecule, there are also three translational modes. However, a linear molecule only has two rotational modes, since a rotation along the axis of the molecule does not change the relative orientation of the atoms. Then the remaining $3N-5$ modes are vibrational.
+    In a nonlinear molecule, there are three translational \emph{modes}, three rotational modes, and the remaining $3N-6$ modes are vibrational. In a linear molecule, there are also three translational modes. However, a linear molecule only has two rotational modes, since a rotation along the axis of the molecule does not change the relative orientation of the atoms. Then the remaining $3N-5$ modes are vibrational. As we will see in the next section, certain vibrational modes are represented by peaks in IR and Raman spectra. Counting and classifying vibrational modes is essential, as it lets chemists predict IR and Raman spectra from molecular structure. As we will see, character tables provide a systematic way to make these predictions.
 
     If we create a $3N\times3N$ transformation matrix to represent the effect of a symmetry operation on the position of each atom, an element in the diagonal of the matrix will be 1 if the atom remains in its original location, -1 if it reverses direction, and 0 if it moves. We can then take the character of the matrix for each symmetry operation. Since operations in the same class have the same character, we only need to construct one such matrix for each class. However, constructing these matrices explicitly can be tedious, especially for a molecule with many atoms. Thankfully, the only information we need from these matrices is their characters, and we can find the characters without explicitly constructing the matrices.
 
@@ -395,8 +401,6 @@
     Since water is a nonlinear molecule, it has $3N-6=3$ vibrational modes. One of these is \emph{symmetric stretch}, where the lengths of the \ch{O-H} bonds lengthen and shorten in unison. One is \emph{antisymmetric stretch}, where one \ch{O-H} bond lengthens as the other one shortens. The last one is \emph{symmetric bend}, where the bond angle increases and decreases, similar to a bird flapping its wings. Each of these vibrational modes changes the \emph{dipole moment} of water, causing its polarity to oscillate slightly. If a picture is worth a thousand words, an animation is worth a million. The vibrational modes of water (and other molecules) can be seen at \url{https://www.chem.purdue.edu/jmol/vibs/h2o.html}.
 
     We could create a $9\times 9$ transformation matrix for each of the four symmetry classes in water. However, we can find the characters of each matrix without explicitly constructing the matrices. In the identity operation $E$, every atom remains in the same position, so the character $\chi_E=9$. In the rotation $C_2$, the hydrogen atoms both move, so they contribute nothing to the character. The oxygen atom reverses direction with respect to $x$ $(-1)$ and $y$ $(-1)$, but not with respect to $z$ $(1)$. Thus, oxygen contributes a net of $-1$ to the character. Hence $\chi_{C_2}=-1$. In the reflection $\sigma_{v1}~(xz)$, in the plane of the molecule, the $x$ and $z$ directions stay the same for each atom, while the $y$ direction flips for each atom. Then $\chi_{\sigma_{v1}}=3-3+3=3$. In the reflection $\sigma_{v2}~(yz)$, the hydrogen atoms swap positions, so they contribute nothing to the character. The oxygen atom reverses direction with respect to $x$ $(-1)$ but not with respect to $y$ $(1)$ or $z$ $(1)$. Therefore, $\chi_{\sigma_{v2}}=1$. We are now ready to show the full $C_{2v}$ character table again, this time with $\Gamma$ included.
-
-    \clearpage
 
     \begin{table}[htbp]
         \centering
@@ -423,7 +427,7 @@
 
     \begin{figure}[htbp]
         \centering
-        \includegraphics[width=6in]{irwater.png}
+        \includegraphics[width=6in]{figures/irwater.png}
         \caption{IR spectrum of water, showing the characteristic peaks of its IR active vibrational modes. \cite{gutow2015}}
         \label{fig:irwater}
     \end{figure}
@@ -440,7 +444,7 @@
 
     \begin{figure}[ht]
         \centering
-        \includegraphics[width=3in]{enantiomers.png}
+        \includegraphics[width=3in]{figures/enantiomers.png}
         \caption{Chiral molecules are non-superimposable over their mirror images. Notice that it is impossible to rotate the molecule on the left to look exactly like the molecule on the right. \cite{monash}}
         \label{fig:enantiomers}
     \end{figure}
@@ -449,14 +453,14 @@
 
     \begin{figure}[htbp]
         \centering
-        \includegraphics[width=3.5in]{chiral.jpg}
+        \includegraphics[width=3.5in]{figures/chiral.jpg}
         \caption{Chiral compounds that consist of an unequal mixture of enantiomers rotate plane-polarized light. \cite{halpern}}
         \label{fig:chiral}
     \end{figure}
 
     Interestingly, the pain reliever ibuprofen is a chiral molecule. It is sold as a racemic mixture, although only one of its enantiomers is effective. Furthermore, the drug thalidomide is chiral. One of its enantiomers is a sedative, while the other causes extreme birth defects. \cite{jonsson2017}
 
-    If a molecule contains any $\sigma_h, \sigma_v, \sigma_d, S_n$, or $i$ symmetry elements, it is achiral. Hence, the only symmetries possible for a chiral compound are the identity $E$ and proper rotation axes $C_n$. A chiral molecule cannot have a mirror plane, improper rotation axis, or center of inversion. If a molecule has a mirror plane \emph{and} a center of inversion, it must also have an improper rotation axis. Therefore, any molecule that belongs to a point group that does not have $S_n$ is chiral. A look at the character table of a molecule's point group will tell which symmetry elements are present, from which one can deduce that the molecule is chiral or achiral.
+    If a molecule contains any $\sigma_h, \sigma_v, \sigma_d, S_n$, or $i$ symmetry elements, it is achiral. Hence, the only symmetries possible for a chiral compound are the identity $E$ and proper rotation axes $C_n$. A look at the character table of a molecule's point group will tell which symmetry elements are present, from which one can deduce that the molecule is chiral or achiral. For instance, by looking at the character tables for $C_{2v}$ and $C_{3v}$, we see the presence of $\sigma$ symmetry elements, precluding molecules that belong to these point groups from being chiral. Thus, water and ammonia are achiral molecules.
 
     \section{Conclusion}
 
